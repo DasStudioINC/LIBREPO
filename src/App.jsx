@@ -9,7 +9,7 @@ function App() {
   const [memberId, setID] = useState(-1);
   const [load, setLoad] = useState(true);
   const [error, setError] = useState(null);
-  const [local, isLocal] = useState(true);
+  const [local, isLocal] = useState(false);
 
   useEffect(() => {
     async function fetchData() {
